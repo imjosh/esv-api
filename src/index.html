@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>ESV Passage Lookup</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://static.esvmedia.org.s3.amazonaws.com/tmp/text.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://static.esvmedia.org.s3.amazonaws.com/tmp/interlinear.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./content/css/main.css"
+      media="all"
+    />
+  </head>
+  <body>
+    <h1>ESV Bible Passage Lookup</h2>
+    <div>
+      <div>
+        <input id="query" type="text" />
+        <button id="okBtn" onclick="getVerses()">OK</button>
+      </div>
+      <div style="color: grey">Ex. John 3:16-17; Rm 1:1</div>
+    </div>
+
+    <div id="output"></div>
+
+    <div class="copyright">
+      <a href="copyright.html">ESV Copyright</a>
+    </div>
+  </body>
+  <script src="./content/js/token.js"></script>
+  <script src="./content/js/main.js"></script>
+</html>
